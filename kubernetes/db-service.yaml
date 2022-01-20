@@ -8,6 +8,6 @@ spec:
   selector:
     app: db
   ports:
-    - name: "5423"
+    - name: "5432"
       port: 5432
       targetPort: 5432
